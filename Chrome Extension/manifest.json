@@ -1,0 +1,18 @@
+{
+  "name": "Chrome Tab Recorder",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "video Records Tool",
+  "permissions": ["tabCapture","activeTab","tabs","storage","http://*/*","https://*/*","<all_urls>"],
+  "browser_action": {
+          "default_icon": "v-icon.png"
+        },
+  "icons": {
+    "16": "v-icon.png",
+    "48": "v-icon.png",
+    "128": "v-icon.png"
+  },
+  "background": {
+    "page": "background.html"
+  }
+}
