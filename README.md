@@ -16,7 +16,7 @@ Features
  - Get chunks on server and generate a video file
  - Video recording pause and resume on tab change and stop recording on tab close
 
- ----------
+
 
  Prerequisites
 -------------
@@ -25,7 +25,7 @@ Features
  - Node server to create socket connection
  - Socket.io client js and server side node module
 
-----------
+
 
  Installing
 -------------
@@ -45,7 +45,7 @@ the chrome extension.
  - Install Socket.io Node module
  - Copy videoSocketConnectionManager.js file to your express project and use it in your express project.
 
- ----------
+
   Build With
 -------------
 
@@ -53,7 +53,7 @@ the chrome extension.
  - HTML5 MediaRecorder API -  [<i ></i> www.w3.org](https://www.w3.org/TR/mediastream-recording/)
  - Socket.io -   [<i ></i> socket.io](http://socket.io/)
 
-  ----------
+
 
    Authour
 -------------
